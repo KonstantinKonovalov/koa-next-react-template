@@ -1,0 +1,22 @@
+{
+  "name": "koa-next-react-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KonstantinKonovalov/koa-next-react-template.git",
+  "author": "Konstantin Konovalov <konstantin.-.konovalov@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "koa": "^2.0.1",
+    "koa-router": "^7.1.0",
+    "next": "latest",
+    "node-sass": "^4.9.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
